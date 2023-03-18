@@ -1,9 +1,9 @@
 #include<iostream>
 #include <cstring>
  using namespace std;
- 
+
 int main(){
- 
+
 	#ifndef ONLINE_JUDGE
         freopen("input.txt", "r", stdin);
         freopen("output.txt", "w", stdout);
@@ -17,10 +17,11 @@ int main(){
             if(a>b){
                 break;
             }
- 
- 
+
+
          }
          cout<<i+1;
-       
+
 	return 0;
-} 
+}
+
